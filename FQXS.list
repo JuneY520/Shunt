@@ -1,5 +1,5 @@
-#可跳过秒跳过视频
-#全屏蔽 host-suffix, zijieapi.com, reject
+#可秒跳过激励广告
+#全屏蔽加 host-suffix, zijieapi.com, reject
 #
 host, p6-ad-sign.byteimg.com, reject
 host, p9-ad-sign.byteimg.com, reject
