@@ -10,6 +10,8 @@ host,image.maimn.com, DIRECT
 host-keyword,vip.kuaikan-cdn, DIRECT
 host-keyword,vip.ffzy-play, DIRECT
 host-keyword,vip.ffzy-online, DIRECT
+#************************************#
+//reject
 #禁止更新系统
 host, ns.itunes.apple.com, reject
 host, appldnld.apple.com, reject
@@ -17,8 +19,16 @@ host, mesu.apple.com, reject
 host, xp.apple.com, reject
 host, gdmf.apple.com, reject
 host, updates-http.cdn-apple.com, reject
-#七猫重定向
+
+#************************************#
+#七猫重定向//xiaoshuo.wtzw.com
 ^https:\/\/xiaoshuo\.wtzw\.com\/app-h5\/freebook\/welfare-center url 302 https://www.baidu.com
+# > 中国银行  原有规则删掉，主机名不动
+^https:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg url reject-200
+#CSDN去广告
+^https?:\/\/app-gw\.csdn\.net\/silkroad-api\/api\/v\d\/assemble\/list\/pub\/channel\/app_open_screen_ad url reject
+^https?:\/\/app-gw\.csdn\.net\/abtesting\/v2\/getList? url reject
+
 
 [MITM]
-hostname =xiaoshuo.wtzw.com
+hostname =xiaoshuo.wtzw.com,mbs.boc.cn,
