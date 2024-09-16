@@ -19,3 +19,6 @@ host, gdmf.apple.com, reject
 host, updates-http.cdn-apple.com, reject
 #七猫重定向
 ^https:\/\/xiaoshuo\.wtzw\.com\/app-h5\/freebook\/welfare-center url 302 https://www.baidu.com
+
+[MITM]
+hostname =xiaoshuo.wtzw.com
