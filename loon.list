@@ -1,15 +1,15 @@
-#大师兄影视  #分流修正 #欢迎大家补充
-host,sdk.alibaba.com.ailbaba.me, 国内直连
-host,img.ffzypic.com, 国内直连
-host,img.bfzypic.com, 国内直连
-host,img.kuaikanzy.net, 国内直连
-host,vip.imgffzy.com, 国内直连
-host,cdn.jsdelivr.net, 国内直连
-host,bfzycdn.com, 国内直连
-host,image.maimn.com, 国内直连
-host-keyword,vip.kuaikan-cdn, 国内直连
-host-keyword,vip.ffzy-play, 国内直连
-host-keyword,vip.ffzy-online, 国内直连
+#大师兄影视  #分流修正
+host,sdk.alibaba.com.ailbaba.me,DIRECT
+host,img.ffzypic.com, DIRECT
+host,img.bfzypic.com, DIRECT
+host,img.kuaikanzy.net, DIRECT
+host,vip.imgffzy.com, DIRECT
+host,cdn.jsdelivr.net, DIRECT
+host,bfzycdn.com, DIRECT
+host,image.maimn.com, DIRECT
+host-keyword,vip.kuaikan-cdn, DIRECT
+host-keyword,vip.ffzy-play, DIRECT
+host-keyword,vip.ffzy-online, DIRECT
 #禁止更新系统
 host, ns.itunes.apple.com, reject
 host, appldnld.apple.com, reject
@@ -17,3 +17,5 @@ host, mesu.apple.com, reject
 host, xp.apple.com, reject
 host, gdmf.apple.com, reject
 host, updates-http.cdn-apple.com, reject
+#七猫重定向
+^https:\/\/xiaoshuo\.wtzw\.com\/app-h5\/freebook\/welfare-center url 302 https://www.baidu.com
