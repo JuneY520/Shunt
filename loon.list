@@ -19,6 +19,11 @@ host, mesu.apple.com, reject
 host, xp.apple.com, reject
 host, gdmf.apple.com, reject
 host, updates-http.cdn-apple.com, reject
+#米读
+host,bid.adview.cn,reject
+host-suffix,afdback.ppsimg.com,reject
+#双十一
+host-suffix,appcfg.v.qq.com,reject
 
 #************************************#
 #七猫重定向//xiaoshuo.wtzw.com
