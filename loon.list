@@ -35,7 +35,8 @@ host-suffix,appcfg.v.qq.com,reject
 ^https?:\/\/app-gw\.csdn\.net\/abtesting\/v2\/getList? url reject
 # 搜狗输入法 //sec.sginput.qq.com
 ^https:\/\/sec\.sginput\.qq\.com\/q url script-response-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js
-
+# > 邮政银行 #更新弹窗   删除本条规则和主机名，误杀邮储信用卡部分功能
+^https:\/\/static\.mobile-bank\.psbc\.com\/mgs url reject
 
 [MITM]
 hostname =xiaoshuo.wtzw.com,mbs.boc.cn,sec.sginput.qq.com,
