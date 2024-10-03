@@ -4,6 +4,35 @@
 #!icon= 
 #!raw-url=https://raw.githubusercontent.com/JuneY520/Shunt/refs/heads/main/blockAds.plugin
 #!date=2024-10-4 23:00:00
+[Rule]
+#大师兄师兄影视分流修正
+DOMAIN,sdk.alibaba.com.ailbaba.me,DIRECT
+DOMAIN,img.ffzypic.com,DIRECT
+DOMAIN,img.bfzypic.com,DIRECT
+DOMAIN,img.kuaikanzy.net,DIRECT
+DOMAIN,vip.imgffzy.com,DIRECT
+DOMAIN,cdn.jsdelivr.net,DIRECT
+DOMAIN,bfzycdn.com,DIRECT
+DOMAIN,image.maimn.com,DIRECT
+DOMAIN-KEYWORD,vip.kuaikan-cdn,DIRECT
+DOMAIN-KEYWORD,vip.ffzy-play,DIRECT
+DOMAIN-KEYWORD,vip.ffzy-online,DIRECT
+
+#************************************#
+# 禁止更新系统
+DOMAIN,ns.itunes.apple.com,REJECT
+DOMAIN,appldnld.apple.com,REJECT
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,updates-http.cdn-apple.com,REJECT
+
+# 米读
+DOMAIN,bid.adview.cn,REJECT
+DOMAIN-SUFFIX,afdback.ppsimg.com,REJECT
+
+# 双十一
+DOMAIN-SUFFIX,appcfg.v.qq.com,REJECT
 [Rewrite]
 # > 曹操专车
 # hostname = ptmpcap.caocaokeji.cn, cap.caocaokeji.cn
