@@ -35,7 +35,7 @@ DOMAIN-SUFFIX,afdback.ppsimg.com,REJECT
 DOMAIN-SUFFIX,appcfg.v.qq.com,REJECT
 [Rewrite]
 #七猫重定向xiaoshuo.wtzw.com
-^https:\/\/xiaoshuo\.wtzw\.com\/app-h5\/freebook\/welfare-center url 302 https://www.baidu.com
+^https:\/\/xiaoshuo\.wtzw\.com\/app-h5\/freebook\/welfare-center 302 https://www.baidu.com
 # > 曹操专车
 # hostname = ptmpcap.caocaokeji.cn, cap.caocaokeji.cn
 ^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ reject-img
