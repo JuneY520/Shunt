@@ -1,8 +1,7 @@
-#!author
-#!icon=
+#!author= 牛奶泡芙
+#!icon= 
 #!raw-url=https://raw.githubusercontent.com/JuneY520/Shunt/refs/heads/main/blockAds.plugin
-#!system_version = 
-#!loon_version = 
+#!tag=自用广告过滤器
 #!date=2024-10-4 23:00:00
 [Rewrite]
 # > 曹操专车
