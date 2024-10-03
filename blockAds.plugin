@@ -1,0 +1,9 @@
+[Rewrite]
+# > 曹操专车
+# hostname = ptmpcap.caocaokeji.cn, cap.caocaokeji.cn
+^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ reject-img
+^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ reject
+
+# =====================================
+[MITM]
+hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn
