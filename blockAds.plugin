@@ -1,3 +1,12 @@
+#!author
+#!icon=
+#!raw-url=https://raw.githubusercontent.com/JuneY520/Shunt/refs/heads/main/blockAds.plugin
+#!tg-group=https://t.me/lanjieguanggao
+#!tag=去广告, fmz200, 奶思
+#!system=iOS, iPadOS
+#!system_version = 
+#!loon_version = 
+#!date=2024-10-4 23:00:00
 [Rewrite]
 # > 曹操专车
 # hostname = ptmpcap.caocaokeji.cn, cap.caocaokeji.cn
