@@ -40,7 +40,8 @@ DOMAIN-SUFFIX,appcfg.v.qq.com,REJECT
 # hostname = ptmpcap.caocaokeji.cn, cap.caocaokeji.cn
 ^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ reject-img
 ^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ reject
-
+# 搜狗输入法sec.sginput.qq.com
+^https:\/\/sec\.sginput\.qq\.com\/q url script-response-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js
 # =====================================
 [MITM]
-hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com
+hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.com
