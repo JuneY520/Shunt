@@ -42,7 +42,10 @@ DOMAIN-SUFFIX,appcfg.v.qq.com,REJECT
 ^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ reject-img
 ^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ reject
 # 搜狗输入法sec.sginput.qq.com
-http-response ^https:\/\/sec\.sginput\.qq\.com\/q script-path=https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js, requires-body=true, timeout=10, tag=SGInput QQ Header
+http-response 
+^https:\/\/sec\.sginput\.qq\.com\/q 
+script-path = 
+https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js, requires-body=true,tag=SGInput QQ 
 # =====================================
 [MITM]
 hostname= ptmpcap.caocaokeji.cn, cap.caocaokeji.cn,xiaoshuo.wtzw.com,sec.sginput.qq.com
