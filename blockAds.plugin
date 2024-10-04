@@ -34,6 +34,7 @@ DOMAIN-SUFFIX,afdback.ppsimg.com,REJECT
 
 # 双十一
 DOMAIN-SUFFIX,appcfg.v.qq.com,REJECT
+#重写
 [Rewrite]
 #七猫重定向xiaoshuo.wtzw.com
 ^https:\/\/xiaoshuo\.wtzw\.com\/app-h5\/freebook\/welfare-center 302 https://www.baidu.com
@@ -41,6 +42,9 @@ DOMAIN-SUFFIX,appcfg.v.qq.com,REJECT
 # hostname = ptmpcap.caocaokeji.cn, cap.caocaokeji.cn
 ^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/ reject-img
 ^https?:\/\/cap\.caocaokeji\.cn\/advert-bss\/ reject
+# 脚本
+# =====================================
+[Script]
 # 搜狗输入法sec.sginput.qq.com
 http-response 
 ^https:\/\/sec\.sginput\.qq\.com\/q 
